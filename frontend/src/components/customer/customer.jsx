@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./customer.scss";
 import user from "../assets/ecg_photose/user.jpg";
 import axios from "axios";
+///////////////////////
 
+////////////////////////////
 export default function Customer(props) {
   const [customerData, setCustomerData] = useState([]);
   console.log("customerData:", customerData);

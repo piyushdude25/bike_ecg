@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 
-const Products = require("./routes/product/Products");
+const Products = require("./routes/products/Products");
 const Customers = require("./routes/customers/Customers");
-const Orders = require("./routes/order/Orders");
+const Orders = require("./routes/orders/Orders");
 
 app.use("/products", Products);
 app.use("/customers", Customers);
