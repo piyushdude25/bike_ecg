@@ -1,0 +1,91 @@
+.welcomesection{
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    font: 700 36px/28px 'Inter', sans-serif;
+    position:relative
+}
+
+.logo_image{
+    right: 5%;
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    bottom: 25px;
+}
+
+.verticleline{
+    width: 100%;
+    height: 2px;
+    background: #D2D2D2;
+}
+.mainsection{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.section{
+    padding: 60px;
+    width: 50%;
+    float: left;
+}
+
+.sectionimage{
+    padding: 60px;
+    width: 50%;
+    float: left;
+    height: 600px;
+    margin: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+}
+.inputclass{
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 20px;
+}
+
+.username{
+    text-align: left;
+    color: #000000;
+    font-weight: 500 ;
+    font-family: 'Inter', sans-serif;
+}
+
+.usertext{
+    padding: 10px;
+    width: 70%;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.logintext{
+    padding-bottom: 45px;
+    color: #000000;
+    text-align: left;
+    font: 600 36px/28px 'Inter', sans-serif;
+}
+
+.log_in{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.loginbutton{
+
+    color: white;
+    background: #5e5bff;
+      border-radius: 5px;
+  border: solid #5e5bff; 
+  border-width: 1px;
+      padding: 10px 15px 10px 15px;
+
+}
+
+// .imageshadow{
+//     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+// }

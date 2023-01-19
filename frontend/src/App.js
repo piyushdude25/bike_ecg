@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
+import Routing from "./Routing";
 import "./App.css";
-
+// import * as fcl from "@onflow/fcl";
 function App() {
-  return <div className="App">ok</div>;
+  return (
+    <div className="App">
+      <Routing />
+    </div>
+  );
 }
 
 export default App;

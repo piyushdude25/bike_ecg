@@ -1,0 +1,110 @@
+.manage_section{
+    padding: 12px;
+    text-align: left;
+    // font-family: Inter;
+font-weight: Bold;
+font-size: 15px;
+color: #FEC324;
+display: flex;
+justify-content: space-between;
+}
+
+.table_childsection{
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 0px 0px 10px 0px;
+    height: 100%;
+}
+
+.menu_list{
+font-family: Inter;
+font-weight: Bold;
+font-size: 12px;
+line-height: 15px;
+}
+
+tbody{
+    // height: 514px;
+    width: 100%;
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    color: white;
+}
+
+.table_col{
+    padding: 12px;
+}
+
+tr{
+    border-bottom: 1px solid;
+}
+
+.searchclass{
+    width: 100%;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.search_class{
+    padding: 12px;
+}
+
+.section-3{
+    height: 615px;
+}
+
+.notification_icon{
+    display: flex;
+    gap: 12px;
+}
+
+.username{
+    font-weight: 600;
+}
+
+.table_section{
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid;
+    background: #39588f;
+    height: 100%;
+}
+
+.userphoto{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.outer_image{
+    width: 50px;
+    height: 50px;
+}
+
+.imagesection{
+    border-radius: 50%;
+}
+
+// .table_overflow{
+
+//     overflow: auto;
+// }
+
+.overflow_section{
+    overflow: auto;
+    width: 100%;
+    height: 615px;
+}
+
+td,th{
+    text-align: left;
+}
+
+.centername{
+   text-align: center;
+}

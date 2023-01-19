@@ -1,0 +1,118 @@
+.section-1,
+.section-1 * {
+  box-sizing: border-box;
+}
+.section-1 {
+  background: #ffffff;
+  width: 15%;
+//   height: 535px;
+  position: relative;
+  border: 1px solid;
+  float: left;
+  height: 700px;
+  border-radius: 10px 0px 0px 10px
+}
+.rectangle-1 {
+  background: #39588f;
+  border-radius: 0px 0px 0px 23px;
+  border: solid #000000;
+  border-width: 1px;
+  width: 206px;
+  height: 432px;
+  position: absolute;
+  left: 0px;
+  top: 103px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.dashboard {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "Inter", sans-serif;
+  position: absolute;
+  left: 51px;
+  top: 120px;
+  width: 71px;
+  height: 33px;
+}
+
+
+
+
+
+.container-fluid{
+    padding: 20px;
+}
+
+.logoclass{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.menulist{
+    // padding-bottom: 25px;
+    // justify-content: center;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid;
+    // padding-top: 25px;
+    align-items: center;
+    padding: 25px 0px 25px 25px;
+}
+.section-2{
+    border: 1px solid;
+    width: 85%;
+    float: left;
+    height: 700px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.logo_img{
+   
+    width: 130px;
+    height: 35px;
+}
+
+.main_list{
+    border-top: 1px solid;
+    color: white;
+    background: #39588f;
+    // padding-top: 25px;
+    height: 578px;
+    border-radius: 0px 0px 0px 10px;
+    overflow: auto;
+}
+.icon{
+    color: #FEC324;
+}
+
+.user_name{
+    padding: 15px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoutsection{
+  position: relative;
+}
+
+.profile{
+  position: absolute;
+    top: 140px;
+    bottom: 12px;
+    left: 25%;
+    display: flex;
+    gap: 12px;
+}
+
+.imageborder{
+  border-radius: 50%;;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
