@@ -17,6 +17,7 @@ import { useNavigate } from "react-router-dom";
 import Billconnecter from "../Billing_invoice/Billconneter";
 import { logout } from "../../redux/actions/userActions";
 import { useDispatch } from "react-redux";
+import ServicePage from "../service/ServicePage";
 
 export default function Superadmin() {
   const navigate = useNavigate();
@@ -154,7 +155,12 @@ export default function Superadmin() {
               <div>User</div>
             </div>
 
-            <div className="menulist">
+            <div
+              className="menulist"
+              onClick={() => {
+                setPage(6);
+              }}
+            >
               <div>
                 <span>
                   <i className="fa fa-cog icon" aria-hidden="true"></i>
@@ -224,6 +230,8 @@ export default function Superadmin() {
               <Orderconnecter />
             ) : page === 5 ? (
               <Billconnecter />
+            ) : page === 6 ? (
+              <ServicePage />
             ) : null}
           </div>
         </div>

@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import Addcustomer from "./Addcustomer";
 import Customer from "./customer";
-import Customers from "./Customers";
 
 export default function Connecter() {
   const [page, setpage] = useState(0);
@@ -18,8 +17,7 @@ export default function Connecter() {
   return (
     <div>
       {page === 0 ? (
-        // <Customer customerNew={customeradd}/>
-        <Customers customerNew={customeradd} />
+        <Customer customerNew={customeradd} />
       ) : page === 1 ? (
         <Addcustomer goback={manage} />
       ) : null}

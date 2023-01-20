@@ -2,18 +2,26 @@ import React from "react";
 import "../customer/customer.scss";
 import user from "../assets/ecg_photose/user.jpg";
 import axios from "axios";
+import Storeapi from "../../apis/Storeapi";
 
 export default function Ordermanage(props) {
+  const response = Storeapi.get("/products");
+
+  console.log("Storeapi::", response);
   const [orderData, setOrderData] = React.useState([]);
   console.log("orderData:", orderData);
-  const fetchOrderData = () => {
-    axios
-      .get("http://localhost:5000/order")
+  // const fetchOrderData = () => {
+  //   axios
+  //     .get("http://localhost:5000/order")
 
-      .then((res) => setOrderData(res.data))
-      .catch((err) => console.log(err));
+  //     .then((res) => setOrderData(res.data))
+  //     .catch((err) => console.log(err));
+  // };
+  const fetchOrderData = async () => {
+    const response = await Storeapi.get("/order");
+    // console.log("Storeapi::", response.data);
+    setOrderData(response.data);
   };
-
   React.useEffect(() => {
     fetchOrderData();
   }, []);

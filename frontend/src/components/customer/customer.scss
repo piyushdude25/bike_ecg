@@ -11,9 +11,10 @@ justify-content: space-between;
 
 .table_childsection{
     border-radius: 10px;
-    border: 2px solid white;
+    // border: 2px solid white;
     padding: 0px 0px 10px 0px;
     height: 100%;
+    // border: 3px solid red;
 }
 
 .menu_list{
@@ -30,8 +31,10 @@ tbody{
 }
 
 table{
+   
     width: 100%;
     color: white;
+    
 }
 
 .table_col{
@@ -107,4 +110,11 @@ td,th{
 
 .centername{
    text-align: center;
+}
+
+
+
+.hr{
+    border-width: 110px;
+    border-top: 2px solid rgb(255, 169, 58);
 }
