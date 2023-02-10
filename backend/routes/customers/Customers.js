@@ -70,12 +70,14 @@ router.get("/:id", (req, res) => {
 //   );
 // });
 //////
+
 router.post("/add", (req, res) => {
   let data = {
     email: "",
     first_name: "",
     last_name: "",
     username: "",
+    password: "",
     billing: {
       first_name: "",
       last_name: "",
@@ -85,7 +87,7 @@ router.post("/add", (req, res) => {
       city: "",
       state: "",
       postcode: "",
-      country: "INDIA",
+      country: "",
       email: "",
       phone: "",
     },
